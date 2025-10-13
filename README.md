@@ -7,7 +7,7 @@ The goal is to build a convolutional neural network that classifies galaxy morph
 
 3.Foundation for more complex astrophysics ML projects.
 
-# Galaxy Morphological Classifier
+# Galaxy Morphological Classification
 Galaxies fill the universe with mysterious forms and complex shapes. However, as cryptic as the patterns might be on initial observation, increased availability of data and the advanced technologies providing clearer visualizations of galaxies even from millions of lightyears away has made it possible for scientists to form classifications of them. From these groups, different properties of astrophysical importance like the evolution and formation of galaxies can be predicted. Thus, the aim of classification is not only to group together similar looking galaxies but also increase our physical understanding of them.
 
 Morphological classification is a system that groups galaxies based on their physical appearance e.g their form and shape as seen in images captured by telescopes. Galaxies can be characterized based on certain physical properties like the shape of their centres, the shape and existence of their spirals, their ellipticity, etc.  There are several schemes by which galaxies can be classified according to their morphologies, the most famous being the Hubble sequence, devised by Edwin Hubble and expanded by Gérard de Vaucouleurs and Allan Sandage. However, galaxy classification and morphology are now largely done using computational methods. Another developed method today is the highly successfull method of using crowd-sourced visual inspection (i.e. Galaxy Zoo1 ) to provide quantitative visual morphologies. 
@@ -15,20 +15,16 @@ Morphological classification is a system that groups galaxies based on their phy
 ### The Hubble scheme
 The Hubble sequence is a morphological classification scheme for galaxies designed by Edwin Hubble. The galxies were divided into three board classes: Ellipticals, Lenticulars and spirals. A fourth class contains galaxies with an irregular appearance. This scheme is the most commonly adopted.
 
-<img width="263" height="191" alt="download" src="https://github.com/user-attachments/assets/4cb6d985-2d00-4b5b-93fc-0aa086ec6c92" />
-<br>*The hubble scheme*
-
-
-# Ellipticals 
+#### Ellipticals 
 These galaxies appear as smooth distributions of light in an elliptical form with no prominent features. They are denoted by En, where n is an integer that represents their degree of ellipticity. By convention, 
 
-  $  e = 1 - \frac{b}{a}$
+ $e = 1 - \frac{b}{a}$
 
 where, 
 a = semi-major axis length of the ellipse
 b = semi-minor axis length of the ellipse
 
-   $  n = 10e$
+   $n = 10e$
 
 The ellipticity of the galaxy increases with the increase in n, with nearly circular shaped galaxies denoted by E0.
 
@@ -60,7 +56,7 @@ There are 3 subdivisions for a detailed classification:
 </ul>
 
 Hubble originally described three classes of spiral galaxy. This was extended by Gérard de Vaucouleurs[14] to include a fourth class:
-<ul></ul>
-<li></li>Sd (SBd) – very loosely wound, fragmentary arms; most of the luminosity is in the arms and not the bulge</li>
+<ul>
+<li>Sd (SBd) – very loosely wound, fragmentary arms; most of the luminosity is in the arms and not the bulge</li>
 </ul>
 
